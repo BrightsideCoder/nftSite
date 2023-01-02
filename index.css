@@ -39,10 +39,7 @@ a:hover, a:active {
   color: #d4b44c;
 }
 
-.buy-nft-link,
-.more-info-link,
-.about-link,
-.contact-link {
+.btn-links {
   padding: 10px 19px;
   border-radius: 4.6px;
   font-weight: 500;
@@ -66,12 +63,8 @@ a:hover, a:active {
   background: whitesmoke;
 }
 
-.buy-nft-link:hover,
-.more-info-link:hover,
-.contact-link:hover,
-.about-link:hover,
-.contact-link:active,
-.about-link:active {
+.btn-links:hover,
+.btn-links:active {
   background: #f3e885;
   color: #2b283a;
 }
