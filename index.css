@@ -1,14 +1,3 @@
-/*
-Challenge:
-1. Create a body selector.
-2. Set the base font size and text color to
-   the values given on the slide.
-3. Bring in "Roboto" from Google Fonts and
-   set it as the default font. Make sure
-   browsers will fall back on a sans-serif
-   font if Roboto is unavailable.
-4. Override HTML's default margin.
-*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
  body {
@@ -17,6 +6,13 @@ Challenge:
    font-weight: 400, 500;
    color: #2b283a;
    margin: 0;
+ }
+
+ .container {
+  margin: 0 auto;
+  width: 620px;
+  border: 1px gray solid;
+  text-align: center;
  }
 
  header {
@@ -48,11 +44,12 @@ section {
   width: 100%;
 }
 
-#nft-anchor {
+a {
   border: 1px dotted red;
   color: #ef5839;
+  border-style: none;
 }
 
-#nft-anchor:hover {
+a:hover {
   color: #d4b44c;
 }
