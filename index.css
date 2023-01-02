@@ -8,17 +8,7 @@
    margin: 0;
  }
 
- .container {
-  margin: 0 auto;
-  width: 620px;
-  border: 1px gray solid;
-  text-align: center;
- }
-
- header {
-   background-color: #5f29a3;
-   padding: 15px 20px;
- }
+ /* TYPOGRAPHY */
 
  h1 {
    font-size: 36px;
@@ -36,13 +26,7 @@
    margin: 0;
 }
 
-section {
-  padding: 15px 0;
-}
-
-.main-image {
-  width: 100%;
-}
+/* LINKS */
 
 a {
   border: 1px dotted red;
@@ -52,4 +36,26 @@ a {
 
 a:hover {
   color: #d4b44c;
+}
+
+/* LAYOUT */
+
+header {
+  background-color: #5f29a3;
+  padding: 15px 20px;
+}
+
+section {
+  padding: 15px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 620px;
+  border: 1px gray solid;
+  text-align: center;
+ }
+
+.main-image {
+  width: 100%;
 }
