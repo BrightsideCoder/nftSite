@@ -30,7 +30,7 @@ p {
 
 /* links */
 
-a {
+.crafting-link {
   color: #ef5839;
   text-decoration: underline dotted;
 }
@@ -39,13 +39,49 @@ a:hover, a:active {
   color: #d4b44c;
 }
 
+.buy-nft-link,
+.more-info-link,
+.about-link,
+.contact-link {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buy-nft-link {
+  color: whitesmoke;
+  background: #5f29a3;
+}
+
+.more-info-link,
+.contact-link {
+  color: #5f29a3;
+  background: #f0e0ff;
+}
+
+.about-link{
+  color: #5f29a3;
+  background: whitesmoke;
+}
+
+.buy-nft-link:hover,
+.more-info-link:hover,
+.contact-link:hover,
+.about-link:hover,
+.contact-link:active,
+.about-link:active {
+  background: #f3e885;
+  color: #2b283a;
+}
 /* layout */
 
 header,
 section,
 footer {
   padding: 45px 0;
-  color: #5f29a3;
+  color: #2b283a;
 }
 
 header, .section-two {
